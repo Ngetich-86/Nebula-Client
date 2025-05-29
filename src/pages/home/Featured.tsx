@@ -37,7 +37,7 @@ const mockPosts = [
   }
 ];
 
-const Feed = () => {
+const Featured = () => {
   const [posts, setPosts] = useState(mockPosts);
 
   const handleLike = (postId: number) => {
@@ -118,4 +118,4 @@ const Feed = () => {
   );
 };
 
-export default Feed;
+export default Featured;

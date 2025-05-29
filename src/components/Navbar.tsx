@@ -22,10 +22,10 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-4">
-              <Link href="/feed" className="hover:text-purple-400 px-3 py-2 rounded-md text-sm font-medium">
-                Feed
+              <Link href="/posts" className="hover:text-purple-400 px-3 py-2 rounded-md text-sm font-medium">
+                Posts
               </Link>
-              <Link href="/explore" className="hover:text-purple-400 px-3 py-2 rounded-md text-sm font-medium">
+              {/* <Link href="/explore" className="hover:text-purple-400 px-3 py-2 rounded-md text-sm font-medium">
                 Explore
               </Link>
               <Link href="/messages" className="hover:text-purple-400 px-3 py-2 rounded-md text-sm font-medium">
@@ -33,7 +33,7 @@ const Navbar = () => {
               </Link>
               <Link href="/notifications" className="hover:text-purple-400 px-3 py-2 rounded-md text-sm font-medium">
                 Notifications
-              </Link>
+              </Link> */}
             </div>
           </div>
 

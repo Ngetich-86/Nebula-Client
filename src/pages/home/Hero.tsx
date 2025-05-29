@@ -28,7 +28,7 @@ const letterVariants = {
   },
 };
 
-const Landing = () => {
+const Hero = () => {
   const title = "Welcome to Nebula";
   const description = "Connect with friends, share your moments, and explore the world through our next-generation social media platform.";
 
@@ -217,4 +217,4 @@ const Landing = () => {
   );
 };
 
-export default Landing; 
+export default Hero; 
